@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "911 Emergency Contact",
+  "version": "1.0",
+  "description": "A Chrome extension to find crisis information based on address.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

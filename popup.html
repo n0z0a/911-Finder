@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Address Form</title>
+  <link rel="stylesheet" href="popup.css">
+  <script src="popup2.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Address Form</h1>
+    <form id="addressForm">
+      <label for="street">Street Address</label><br>
+      <input type="text" id="street" name="street" placeholder="e.g., 100 Military Plaza #4" required><br><br>
+      
+      <label for="city">City Name</label><br>
+      <input type="text" id="city" name="city" placeholder="e.g., San Antonio" required><br><br>
+      
+      <label for="state">State</label><br>
+      <input type="text" id="state" name="state" placeholder="e.g., TX" required><br><br>
+      
+      <label for="zip">Zip Code</label><br>
+      <input type="text" id="zip" name="zip" placeholder="e.g., 78205" required><br><br>
+      
+      <input type="submit" value="Submit">
+    </form>
+    
+    <!-- Output Section -->
+    <div id="output" class="output">
+      <p>Enter an address to retrieve agency and phone information.</p>
+    </div>
+  </div>
+</body>
+</html>
